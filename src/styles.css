@@ -1,0 +1,237 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+.container{
+    display:flex;
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+    background: #000;
+}
+
+.sidebar{
+    border-radius: 3px;
+    background: #4b0202;
+    background-image: url("./ui/img/fondo_sidebar.png");
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+    
+}
+
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+
+.active{
+    background: lightskyblue;
+    color: #000;
+}
+
+.icon, .link_text{
+    font-size: 19px;
+    font-family: 'Times New Roman', sans-serif;
+    
+}
+
+
+
+.body {
+    background: lightskyblue;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+.box {
+    display: flex;
+  }
+
+
+.body_black {
+    background: #000;
+}
+
+
+.body_contenedor {
+    
+    background: #000;
+    width: 100%;
+	
+    min-width: 0px;
+	max-width: 0px;
+
+	padding: 0px 0px;
+	/* Grid*/
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+    border-radius: 10px;
+    
+}
+
+
+.contenedor {
+    
+    background: #0a0a0a;
+    width: 100%;
+	
+    min-width: 1220px;
+	max-width: 1220px;
+
+	padding: 10px 10px;
+	/* Grid*/
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+    border-radius: 10px;
+    
+}
+
+.contenedor_senales {
+   /* Grid */
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+
+
+
+}
+
+.contenedor_vacio_marco {
+    border: 1px solid #4B4B4B;
+    border-radius: 10px;
+    min-height: 200px;
+    max-height: 250px;
+    min-width: 270px;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-color: #000000;
+    margin: left;
+    background-image: url("./ui/img/canal26_logo.jpg");
+}
+
+.contenedor_canal26 {
+    border: 1px solid #4B4B4B;
+    border-radius: 10px;
+    min-height: 200px;
+    max-height: 250px;
+    min-width: 270px;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("./ui/img/canal26_logo.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-color: #000000;    
+}
+
+.contenedor_telemax {
+    border: 1px solid #4B4B4B;
+    border-radius: 10px;
+    min-height: 200px;
+    max-height: 250px;
+    min-width: 270px;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("./ui/img/telemax_logo.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-color: #000000;    
+}
+
+
+.contenedor_senal {
+    width: 200%;
+    position: center;
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    gap: 10px;
+    border-radius: 10px;
+    background: #000;
+}
+
+.contenedor_vacio {
+    
+    position: relative;
+    min-height: 200px;
+    max-height: 250px;
+    min-width: 270px;
+    font-weight: bold;
+    padding: 10px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.title {
+    color: #FFFF;
+    font-size: 16px;
+    padding: 1px 1;
+}
+
+
+
+.titulo {
+    color: #FFFF;
+    font-size: 20px;
+    padding: 20px 0;
+    
+}
+
+
+.titulo_error {
+    color: red;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}

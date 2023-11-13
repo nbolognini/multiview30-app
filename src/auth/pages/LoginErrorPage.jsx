@@ -2,7 +2,8 @@ import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from "../context/AuthContext";
 
-export const LoginPage = () => {
+export const LoginErrorPage = () => {
+  
     const { login } = useContext(AuthContext);
     const navigate = useNavigate();
 
@@ -10,11 +11,12 @@ export const LoginPage = () => {
     const [pass, setPass] = useState('');
 
     const onLoginAnonimo = () => {
-        navigate('/invitado', { replace: true });
+        login('Anomimo');
+        navigate('/', { replace: true });
     }
 
     const onLogin = () => {
-        login('sistemas26');
+        login('sistemas');
         navigate('/', { replace: true });
     }
 
@@ -22,8 +24,12 @@ export const LoginPage = () => {
         navigate('/loginerror', { replace: true });
     }
 
+    const onLoginLogin = () => {
+      navigate('/login', { replace: true });
+  }
+
     const handleLoginClick = () => {
-        if (username === 'sistemas26' && pass === 'sistemas26') {
+        if (username === 'sistemas' && pass === 'sistemas123') {
             onLogin();
         } else {
           onLoginOut();
@@ -41,22 +47,19 @@ export const LoginPage = () => {
                 <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
                     <ul className="navbar-nav ml-auto">
                         <span className="nav-item nav-link text-primary"></span>
-                        <button className="nav-item nav-link btn" onClick={onLoginAnonimo}>
-                            invitado
+                        <button className="nav-item nav-link btn" onClick={onLoginLogin}>
+                            Login
                         </button>
                     </ul>
                 </div>
             </nav>
             <div>
-                <hr />
-                <label>Usuario</label>
-                <input type="text" value={username} onChange={e => setUsername(e.target.value)} />
-                <label>Contraseña</label>
-                <input type="password" value={pass} onChange={e => setPass(e.target.value)} />
-                <button className='btn btn-primary' onClick={handleLoginClick}>
-                    Ingresar
-                </button>
+                    <hr />
+                    <div>
+                        <h1 className="titulo_error">error de usuario o contraseña</h1>
+                    </div>
             </div>
         </>
     )
 }
+
