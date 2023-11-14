@@ -43,12 +43,12 @@ export const Sidebar = ({children}) => {
         },
         {
             path:"/tlcpreview",
-            name:"Tlc.Preview",
+            name:"TlcPreview",
             icon:<TbSquareLetterP/>
         },
         {
             path:"tlc4k",
-            name:"Tlc.4K",
+            name:"Telecentro_4k",
             icon:<PiNumberFourFill/>
         }
     ]
