@@ -4,9 +4,27 @@
     text-decoration: none;
 }
 
+
+
 .container{
     display:flex;
+    min-width: 860px;
+    max-width: 2000px;
+    min-height: 700px;
+    max-height: 900px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 main{
     width: 100%;
@@ -77,54 +95,27 @@ main{
 
 body {
     background-color: black;
+    
 }
 
 
 
 .box {
     display: flex;
+    max-width: 0px;
   }
 
 
 .body_black {
     background: #000;
-}
-
-
-.body_contenedor {
-    
-    background: #000;
-    width: 100%;
-	
-    min-width: 0px;
-	max-width: 0px;
-
-	padding: 0px 0px;
-	/* Grid*/
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	gap: 10px;
-    border-radius: 10px;
     
 }
 
 
-.contenedor {
-    
-    background: #0a0a0a;
-    width: 100%;
-	
-    min-width: 1220px;
-	max-width: 1220px;
 
-	padding: 10px 10px;
-	/* Grid*/
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	gap: 10px;
-    border-radius: 10px;
-    
-}
+
+
+
 
 .contenedor_senales {
    /* Grid */
@@ -157,13 +148,23 @@ gap: 10px;
 .contenedor_canal26 {
     border: 1px solid #4B4B4B;
     border-radius: 10px;
-    min-height: 200px;
-    max-height: 250px;
+
+    
+    
+    min-height: 100px;
     min-width: 270px;
+
+    max-width: 100px;
+    max-height: 250px;
+
+    display: grid;
+    
+
     font-weight: bold;
-    padding: 10px;
+    padding: 5px;
     position: relative;
     overflow: hidden;
+    
     background-image: url("./ui/img/canal26_logo.jpg");
     background-position: right top;
     background-repeat: no-repeat;
@@ -213,20 +214,22 @@ gap: 10px;
     
 }
 
-.title {
-    color: #FFFF;
-    font-size: 16px;
-    padding: 1px 1;
-}
 
 
 
-.titulo {
-    color: #FFFF;
-    font-size: 20px;
-    padding: 20px 0;
-    
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .titulo_error {
@@ -236,3 +239,116 @@ gap: 10px;
     width: 100%;
     font-family: Arial, sans-serif;
 }
+
+.contenedor_izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+
+
+.titulo-video {
+    height: 36px;
+    width: 280px;
+    font-size: 19px;
+    color: greenyellow;
+}
+
+
+
+.title {
+    color: #FFFF;
+    font-size: 16px;
+    padding: 1px 1;
+}
+
+
+
+
+
+
+
+.body_contenedor {
+	max-width: 0px;
+    min-width: 860px;
+    max-width: 1550px;
+    min-height: 700px;
+    max-height: 900px;
+
+}
+
+
+.flex-Container{
+    display: flex;
+    min-width: 860px;
+    max-width: 2000px;
+    min-height: 700px;
+    max-height: 900px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: left;
+    align-content: top;
+    padding: 2px;
+    height: 100vh;
+    background-color: gray
+}
+
+
+
+
+
+
+.contenedor {
+    background: #0a0a0a;
+    width: 100%;
+    min-width: 2000px;
+	max-width: 2000px;
+
+	padding: 10px 10px;
+	/* Grid*/
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+.Container-marco {
+    background-color: rgb(12, 12, 12);
+    height: 260px;
+    width: 292px;
+    margin: 2px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #4B4B4B;
+    border-radius: 10px;
+}
+
+.Container-titulo {
+    color: #FFFF;
+    height:10px;
+    width: 292px;
+    font-size: 23px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.Container-video {
+    background-color: darkorange;
+    height: 250px;
+    width: 292px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
