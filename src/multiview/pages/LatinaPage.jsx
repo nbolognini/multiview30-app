@@ -1,268 +1,122 @@
 import React from 'react'
+import ReactPlayer from 'react-player'
 
 export const LatinaPage = () => {
   return (
     <>
    
 
-          <div class="Container-marco">
-                                <div class="Container-titulo">
-                                  Canal26 <br></br>HLS
-                                </div>
-
-
-                                <div class="Container-video>">
-
-                                      <iframe      
-                                                height="180"
-                                                width="290" 
-                                                src="https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&amp;autoplay=1&amp;mute=1&amp;enablejsapi=1" 
-                                                title="YouTube video player" 
-                                                frameBorder="0" 
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                      allowFullScreen>  </iframe>
-
-                                  </div>
-            </div>
-
-
             <div class="Container-marco">
-                                <div class="Container-titulo">
-                                  Canal26 <br></br>HLS
-                                </div>
+                                    <div class="Container-titulo">
+                                    LatinaTV <br></br> HLS
+                                    </div>
+    
+    
+                                    <div class="Container-video>">
+    
+                                    <ReactPlayer controls muted playing width="264" height="198"   url='https://stream-gtlc.telecentro.net.ar/hls/latinatvhls/main.m3u8' />
+    
+                                      </div>
+                </div>
 
 
-                                <div class="Container-video>">
+                <div class="Container-marco">
+                                    <div class="Container-titulo">
+                                    LatinaTV <br></br> (Wowza)
+                                    </div>
+    
+    
+                                    <div class="Container-video>">
+    
+                                    <ReactPlayer controls muted playing width="264" height="198"   url='http://live-edge01.telecentro.net.ar/live/smil:rltn.smil/playlist.m3u8' />
+    
+                                      </div>
+                </div>
 
-                                      <iframe      
-                                                height="180"
-                                                width="290" 
-                                                src="https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&amp;autoplay=1&amp;mute=1&amp;enablejsapi=1" 
-                                                title="YouTube video player" 
-                                                frameBorder="0" 
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                      allowFullScreen>  </iframe>
 
-                                  </div>
-            </div>
 
+                <div class="Container-marco">
+                                    <div class="Container-titulo">
+                                    LatinaTV <br></br> (Twitch)
+                                    </div>
+    
+    
+                                    <div class="Container-video>">
+    
+                                    <iframe
+                                          src="https://player.twitch.tv/?channel=radiolatina1011&parent=multiview.telecentro.net.ar&muted=true"
+                                          height="180"
+                                          width="290"
+                                          allowfullscreen>
+                                    </iframe>
+    
+                                      </div>
+                </div>
 
-            <div class="Container-marco">
-                                <div class="Container-titulo">
-                                  Canal26 <br></br>HLS
-                                </div>
 
 
-                                <div class="Container-video>">
 
-                                      <iframe      
-                                                height="180"
-                                                width="290" 
-                                                src="https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&amp;autoplay=1&amp;mute=1&amp;enablejsapi=1" 
-                                                title="YouTube video player" 
-                                                frameBorder="0" 
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                      allowFullScreen>  </iframe>
+                <div class="Container-marco">
+                                    <div class="Container-titulo">
+                                    RadioLatina <br></br> HLS (nebula)
+                                    </div>
+    
+    
+                                    <div class="Container-video>">
+    
+                                    <ReactPlayer controls muted playing width="264" height="198"   url='https://stream-gtlc.telecentro.net.ar/hls/radiolatinahls/main.m3u8' />
 
-                                  </div>
-            </div>
+                                    
+    
+                                      </div>
+                </div>
 
 
-            <div class="Container-marco">
-                                <div class="Container-titulo">
-                                  Canal26 <br></br>HLS
-                                </div>
 
 
-                                <div class="Container-video>">
 
-                                      <iframe      
-                                                height="180"
-                                                width="290" 
-                                                src="https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&amp;autoplay=1&amp;mute=1&amp;enablejsapi=1" 
-                                                title="YouTube video player" 
-                                                frameBorder="0" 
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                      allowFullScreen>  </iframe>
 
-                                  </div>
-            </div>
 
 
 
-            <div class="Container-marco">
-                                <div class="Container-titulo">
-                                  Canal26 <br></br>HLS
-                                </div>
 
 
-                                <div class="Container-video>">
 
-                                      <iframe      
-                                                height="180"
-                                                width="290" 
-                                                src="https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&amp;autoplay=1&amp;mute=1&amp;enablejsapi=1" 
-                                                title="YouTube video player" 
-                                                frameBorder="0" 
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                      allowFullScreen>  </iframe>
 
-                                  </div>
-            </div>
+                <div class="Container-marco">
+                                    <div class="Container-titulo">
+                                    RadioLatina <br></br> (Baja Calidad)
+                                    </div>
+    
+    
+                                    <div class="Container-video>">
+    
+                                    <iframe src="https://streaming.latina101.com.ar:8080/RadioLatina" width="290" height="180"></iframe>
+    
+                                      </div>
+                </div>
 
 
+                <div class="Container-marco">
+                                    <div class="Container-titulo">
+                                    RadioLatina <br></br> (Alta Calidad)
+                                    </div>
+    
+    
+                                    <div class="Container-video>">
+    
+                                    <iframe src="https://streaming.latina101.com.ar:9000/Repetidoras" width="290" height="180"></iframe>
+    
+                                      </div>
+                </div>
 
 
-            <div class="Container-marco">
-                                <div class="Container-titulo">
-                                  Canal26 <br></br>HLS
-                                </div>
 
 
-                                <div class="Container-video>">
 
-                                      <iframe      
-                                                height="180"
-                                                width="290" 
-                                                src="https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&amp;autoplay=1&amp;mute=1&amp;enablejsapi=1" 
-                                                title="YouTube video player" 
-                                                frameBorder="0" 
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                      allowFullScreen>  </iframe>
 
-                                  </div>
-            </div>
 
 
-
-            <div class="Container-marco">
-                                <div class="Container-titulo">
-                                  Canal26 <br></br>HLS
-                                </div>
-
-
-                                <div class="Container-video>">
-
-                                      <iframe      
-                                                height="180"
-                                                width="290" 
-                                                src="https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&amp;autoplay=1&amp;mute=1&amp;enablejsapi=1" 
-                                                title="YouTube video player" 
-                                                frameBorder="0" 
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                      allowFullScreen>  </iframe>
-
-                                  </div>
-            </div>
-
-
-
-            <div class="Container-marco">
-                                <div class="Container-titulo">
-                                  Canal26 <br></br>HLS
-                                </div>
-
-
-                                <div class="Container-video>">
-
-                                      <iframe      
-                                                height="180"
-                                                width="290" 
-                                                src="https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&amp;autoplay=1&amp;mute=1&amp;enablejsapi=1" 
-                                                title="YouTube video player" 
-                                                frameBorder="0" 
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                      allowFullScreen>  </iframe>
-
-                                  </div>
-            </div>
-
-
-
-            <div class="Container-marco">
-                                <div class="Container-titulo">
-                                  Canal26 <br></br>HLS
-                                </div>
-
-
-                                <div class="Container-video>">
-
-                                      <iframe      
-                                                height="180"
-                                                width="290" 
-                                                src="https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&amp;autoplay=1&amp;mute=1&amp;enablejsapi=1" 
-                                                title="YouTube video player" 
-                                                frameBorder="0" 
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                      allowFullScreen>  </iframe>
-
-                                  </div>
-            </div>
-
-
-
-            <div class="Container-marco">
-                                <div class="Container-titulo">
-                                  Canal26 <br></br>HLS
-                                </div>
-
-
-                                <div class="Container-video>">
-
-                                      <iframe      
-                                                height="180"
-                                                width="290" 
-                                                src="https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&amp;autoplay=1&amp;mute=1&amp;enablejsapi=1" 
-                                                title="YouTube video player" 
-                                                frameBorder="0" 
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                      allowFullScreen>  </iframe>
-
-                                  </div>
-            </div>
-
-
-
-            <div class="Container-marco">
-                                <div class="Container-titulo">
-                                  Canal26 <br></br>HLS
-                                </div>
-
-
-                                <div class="Container-video>">
-
-                                      <iframe      
-                                                height="180"
-                                                width="290" 
-                                                src="https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&amp;autoplay=1&amp;mute=1&amp;enablejsapi=1" 
-                                                title="YouTube video player" 
-                                                frameBorder="0" 
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                      allowFullScreen>  </iframe>
-
-                                  </div>
-            </div>
-
-
-            <div class="Container-marco">
-                                <div class="Container-titulo">
-                                  Canal26 <br></br>HLS
-                                </div>
-
-
-                                <div class="Container-video>">
-
-                                      <iframe      
-                                                height="180"
-                                                width="290" 
-                                                src="https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&amp;autoplay=1&amp;mute=1&amp;enablejsapi=1" 
-                                                title="YouTube video player" 
-                                                frameBorder="0" 
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                      allowFullScreen>  </iframe>
-
-                                  </div>
-            </div>
 
 
 
