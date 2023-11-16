@@ -9,8 +9,8 @@ export const Canal26Page = () => {
 
     
    
-
-<div class="Container-marco">
+          <div class="Container-marco-gris">
+                  <div class="Container-marco">
                                     <div class="Container-titulo">
                                       Canal26 <br></br>YouTube
                                     </div>
@@ -29,9 +29,10 @@ export const Canal26Page = () => {
     
                                       </div>
                 </div>
+          </div>
     
         
-    
+          <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
                                       Canal26 <br></br>HLS
@@ -44,8 +45,10 @@ export const Canal26Page = () => {
     
                                       </div>
                 </div>
+          </div>
     
 
+          <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
                                     Canal26 Fifa Tv <br></br> (OpterCast)
@@ -58,9 +61,10 @@ export const Canal26Page = () => {
     
                                       </div>
                 </div>
+          </div>
 
 
-
+          <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
                                     Canal26<br></br> (Wowza)
@@ -73,6 +77,7 @@ export const Canal26Page = () => {
     
                                       </div>
                 </div>
+          </div>
 
 
 

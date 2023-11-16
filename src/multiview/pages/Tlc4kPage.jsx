@@ -5,7 +5,7 @@ export const Tlc4kPage = () => {
   return (
     <>
    
-
+   <div class="Container-marco-gris">
           <div class="Container-marco">
                                 <div class="Container-titulo">
                                   Canal26 <br></br>HLS
@@ -18,6 +18,7 @@ export const Tlc4kPage = () => {
 
                                   </div>
             </div>
+      </div>
 
 
 

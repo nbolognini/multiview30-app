@@ -5,7 +5,7 @@ export const HomePage = () => {
     return (
         <>
        
-    
+       <div class="Container-marco-gris">
               <div class="Container-marco">
                                     <div class="Container-titulo">
                                       Canal26 <br></br>YouTube
@@ -26,8 +26,10 @@ export const HomePage = () => {
                                       </div>
                 </div>
     
-        
+        </div>
     
+
+        <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
                                       Canal26 <br></br>HLS
@@ -40,8 +42,13 @@ export const HomePage = () => {
     
                                       </div>
                 </div>
+
+
+        </div>
     
 
+
+        <div class="Container-marco-gris">    
                 <div class="Container-marco">
                                     <div class="Container-titulo">
                                     Canal26 Fifa Tv <br></br> (OpterCast)
@@ -54,12 +61,13 @@ export const HomePage = () => {
     
                                       </div>
                 </div>
+                </div>
 
 
 
 
 
-    
+        <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
                                     Telemax <br></br> HLS
@@ -72,9 +80,10 @@ export const HomePage = () => {
     
                                       </div>
                 </div>
+        </div>
     
     
-    
+        <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
                                     MusicTop <br></br> HLS
@@ -87,10 +96,10 @@ export const HomePage = () => {
     
                                       </div>
                 </div>
+        </div>
     
     
-    
-    
+        <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
                                     TierraMia <br></br> HLS
@@ -103,9 +112,10 @@ export const HomePage = () => {
     
                                       </div>
                 </div>
+        </div>
     
-    
-    
+
+        <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
                                     LatinaTV <br></br> HLS
@@ -118,9 +128,10 @@ export const HomePage = () => {
     
                                       </div>
                 </div>
+        </div>
     
     
-    
+        <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
                                     Tlc Preview <br></br> HLS
@@ -133,9 +144,10 @@ export const HomePage = () => {
     
                                       </div>
                 </div>
+        </div>
     
     
-    
+        <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
                                     Tlc 4k <br></br> HLS
@@ -148,25 +160,11 @@ export const HomePage = () => {
     
                                       </div>
                 </div>
+        </div>
     
+  
     
-    
-                <div class="Container-marco">
-                                    <div class="Container-titulo">
-                                    RadioLatina <br></br> HLS
-                                    </div>
-    
-    
-                                    <div class="Container-video>">
-
-                                    <ReactPlayer controls muted playing width="264" height="198"   url='https://stream-gtlc.telecentro.net.ar/hls/radiolatinahls/main.m3u8' />
-                                    
-    
-                                      </div>
-                </div>
-    
-    
-    
+        <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
                                     LatinaTV <br></br> Twitch
@@ -185,10 +183,10 @@ export const HomePage = () => {
     
                                       </div>
                 </div>
-    
+        </div>
 
 
-    
+        <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
                                     TEST <br></br> (Sistemas)
@@ -208,7 +206,25 @@ export const HomePage = () => {
     
                                       </div>
                 </div>
+          </div>
+
+
+
+          <div class="Container-marco-gris">
+                <div class="Container-marco">
+                                    <div class="Container-titulo">
+                                    RadioLatina <br></br> HLS
+                                    </div>
     
+    
+                                    <div class="Container-video>">
+
+                                    <ReactPlayer controls muted playing width="264" height="198"   url='https://stream-gtlc.telecentro.net.ar/hls/radiolatinahls/main.m3u8' />
+                                    
+    
+                                      </div>
+                </div>
+        </div>
     
     
     

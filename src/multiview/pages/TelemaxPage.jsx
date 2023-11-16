@@ -5,8 +5,8 @@ export const TelemaxPage = () => {
   return (
     <>
    
-
-   <div class="Container-marco">
+          <div class="Container-marco-gris">
+                  <div class="Container-marco">
                                     <div class="Container-titulo">
                                     Telemax <br></br> HLS
                                     </div>
@@ -18,8 +18,10 @@ export const TelemaxPage = () => {
     
                                       </div>
                 </div>
-    
+          </div>
 
+
+          <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
                                     Telemax <br></br> HLS
@@ -32,8 +34,9 @@ export const TelemaxPage = () => {
     
                                       </div>
                 </div>
+            </div>
 
-
+                
 
 
 

@@ -5,8 +5,8 @@ export const TierramiaPage = () => {
   return (
     <>
    
-
-   <div class="Container-marco">
+   <div class="Container-marco-gris">
+                  <div class="Container-marco">
                                     <div class="Container-titulo">
                                     TierraMia <br></br> HLS
                                     </div>
@@ -18,8 +18,9 @@ export const TierramiaPage = () => {
     
                                       </div>
                 </div>
+    </div>
     
-
+    <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
                                     TierraMia <br></br> HLS
@@ -32,7 +33,7 @@ export const TierramiaPage = () => {
     
                                       </div>
                 </div>
-
+    </div>
 
 
 

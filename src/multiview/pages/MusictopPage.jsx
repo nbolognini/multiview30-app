@@ -6,8 +6,8 @@ export const MusictopPage = () => {
   return (
     <>
    
-
-   <div class="Container-marco">
+          <div class="Container-marco-gris">
+                  <div class="Container-marco">
                                     <div class="Container-titulo">
                                     MusicTop <br></br> HLS
                                     </div>
@@ -19,8 +19,9 @@ export const MusictopPage = () => {
     
                                       </div>
                 </div>
+          </div>
 
-
+          <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
                                     MusicTop <br></br> HLS
@@ -33,6 +34,7 @@ export const MusictopPage = () => {
     
                                       </div>
                 </div>
+            </div>
 
 
 

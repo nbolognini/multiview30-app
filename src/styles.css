@@ -319,8 +319,23 @@ gap: 10px;
 
 
 
+.Container-marco-gris {
+    background-color: rgba(172, 168, 168, 0.267);
+    height: 266px;
+    width: 298px;
+    margin: 2px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+
+}
+
+
+
+
 .Container-marco {
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(0, 0, 0);
     height: 260px;
     width: 292px;
     margin: 2px;  
@@ -335,7 +350,7 @@ gap: 10px;
     color: #FFFF;
     height:10px;
     width: 292px;
-    font-size: 23px;
+    font-size: 20px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
