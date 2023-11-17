@@ -52,15 +52,15 @@ export const LoginPage = () => {
 
                 <div className="login-container">
                 <div className="texto-login">
-                    MULTIVIEW
-                </div>
+                    MULTIVIEW <br /> <br /> 
+                </div>  
     <label>Usuario</label> 
     <input type="text" value={username} onChange={e => setUsername(e.target.value)} /> 
     <label>Contraseña</label>
     <input type="password" value={pass} onChange={e => setPass(e.target.value)} />
     <button className='btn btn-primary' onClick={handleLoginClick}>
         Ingresar
-    </button>
+    </button> 
 </div>
 
 
