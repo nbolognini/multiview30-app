@@ -55,10 +55,25 @@ export const LoginErrorPage = () => {
             </nav>
             <div>
                     <hr />
-                    <div>
-                        <h1 className="titulo_error">error de usuario o contraseña</h1>
-                    </div>
+
+                    <div className="login-container">
+
+                        <h3 className="titulo_error">Error de usuario o contraseña</h3> <br></br>
+
+                        
+
+                        <span className="nav-item nav-link text-primary"></span>
+                        <button className="nav-item nav-link btn" onClick={onLoginLogin}>
+                            Volver
+                        </button>
+
+
+
+
             </div>
+
+                        </div>
+
         </>
     )
 }
