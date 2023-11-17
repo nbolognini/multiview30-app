@@ -80,9 +80,11 @@ export const Canal26Page = () => {
           </div>
 
 
+          <div class="Container-marco-negro">
+      </div>
 
-
-
+      <div class="Container-marco-negro">
+      </div>
 
 
     </>

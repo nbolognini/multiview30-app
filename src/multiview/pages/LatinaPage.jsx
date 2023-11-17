@@ -20,20 +20,29 @@ export const LatinaPage = () => {
                 </div>
         </div>
 
+
         <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
-                                    LatinaTV <br></br> (Wowza)
+                                    RadioLatina <br></br> HLS (Nebula)
                                     </div>
     
     
                                     <div class="Container-video>">
     
-                                    <ReactPlayer controls muted playing width="264" height="198"   url='http://live-edge01.telecentro.net.ar/live/smil:rltn.smil/playlist.m3u8' />
+                                    <ReactPlayer controls muted playing width="264" height="198"   url='https://stream-gtlc.telecentro.net.ar/hls/radiolatinahls/main.m3u8' />
+
+                                    
     
                                       </div>
                 </div>
         </div>
+
+
+
+
+
+
 
 
         <div class="Container-marco-gris">
@@ -57,23 +66,21 @@ export const LatinaPage = () => {
         </div>
 
 
-
         <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
-                                    RadioLatina <br></br> HLS (nebula)
+                                    LatinaTV <br></br> (Wowza)
                                     </div>
     
     
                                     <div class="Container-video>">
     
-                                    <ReactPlayer controls muted playing width="264" height="198"   url='https://stream-gtlc.telecentro.net.ar/hls/radiolatinahls/main.m3u8' />
-
-                                    
+                                    <ReactPlayer controls muted playing width="264" height="198"   url='http://live-edge01.telecentro.net.ar/live/smil:rltn.smil/playlist.m3u8' />
     
                                       </div>
                 </div>
         </div>
+
 
 
 
@@ -108,10 +115,12 @@ export const LatinaPage = () => {
           </div>
 
 
+          <div class="Container-marco-negro">
+      </div>
 
 
-
-
+      <div class="Container-marco-negro">
+      </div>
 
 
 

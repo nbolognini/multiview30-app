@@ -23,7 +23,7 @@ export const TierramiaPage = () => {
     <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
-                                    TierraMia <br></br> HLS
+                                    TierraMia <br></br> (Wowza)
                                     </div>
     
     

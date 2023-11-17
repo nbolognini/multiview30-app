@@ -8,7 +8,7 @@ export const Tlc4kPage = () => {
    <div class="Container-marco-gris">
           <div class="Container-marco">
                                 <div class="Container-titulo">
-                                  Canal26 <br></br>HLS
+                                  Telecentro 4k <br></br>HLS
                                 </div>
 
 
@@ -20,7 +20,8 @@ export const Tlc4kPage = () => {
             </div>
       </div>
 
-
+      <div class="Container-marco-negro">
+      </div>
 
 
 

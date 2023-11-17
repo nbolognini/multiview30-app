@@ -24,7 +24,7 @@ export const MusictopPage = () => {
           <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
-                                    MusicTop <br></br> HLS
+                                    MusicTop <br></br> (Wowza)
                                     </div>
     
     

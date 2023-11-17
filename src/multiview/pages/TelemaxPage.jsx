@@ -24,7 +24,7 @@ export const TelemaxPage = () => {
           <div class="Container-marco-gris">
                 <div class="Container-marco">
                                     <div class="Container-titulo">
-                                    Telemax <br></br> HLS
+                                    Telemax <br></br> (Wowza)
                                     </div>
     
     

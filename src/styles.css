@@ -330,6 +330,17 @@ gap: 10px;
 
 }
 
+.Container-marco-negro {
+    background-color: rgba(0, 0, 0, 0);
+    height: 266px;
+    width: 298px;
+    margin: 2px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+
+}
 
 
 
@@ -427,3 +438,4 @@ gap: 10px;
     color: #ff0000; /* Color de texto rojo para el error */
     font-size: 1px;
 }
+
