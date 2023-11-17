@@ -49,13 +49,26 @@ export const LoginPage = () => {
             </nav>
             <div>
                 <hr />
-                <label>Usuario</label>
-                <input type="text" value={username} onChange={e => setUsername(e.target.value)} />
-                <label>Contraseña</label>
-                <input type="password" value={pass} onChange={e => setPass(e.target.value)} />
-                <button className='btn btn-primary' onClick={handleLoginClick}>
-                    Ingresar
-                </button>
+
+                <div className="login-container">
+                <div className="texto-login">
+                    MULTIVIEW
+                </div>
+    <label>Usuario</label> 
+    <input type="text" value={username} onChange={e => setUsername(e.target.value)} /> 
+    <label>Contraseña</label>
+    <input type="password" value={pass} onChange={e => setPass(e.target.value)} />
+    <button className='btn btn-primary' onClick={handleLoginClick}>
+        Ingresar
+    </button>
+</div>
+
+
+
+                
+
+
+
             </div>
         </>
     )

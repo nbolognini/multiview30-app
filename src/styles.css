@@ -89,6 +89,7 @@ main{
 
 
 
+
 .body {
     background: lightskyblue;
 }
@@ -299,8 +300,6 @@ gap: 10px;
 
 
 
-
-
 .contenedor {
     background: #0a0a0a;
     width: 100%;
@@ -368,3 +367,54 @@ gap: 10px;
     border: 1px solid #4B4B4B;
 }
 
+
+
+
+.texto-login {
+    font-size: 30px;
+    font-family: 'Times New Roman', sans-serif;
+    color: #fff;
+}
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; /* Reduce la altura */
+    width: 20%; /* Reduce el ancho */
+    margin: auto; /* Centra el contenedor */
+    background-color: #1b1a1a; /* Cambia el color de fondo a oscuro */
+    color: #fff; /* Cambia el color del texto a blanco */
+    border-radius: 10px; /* Agrega bordes redondeados */
+}
+
+.login-container label {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.login-container input {
+    width: 80%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1em;
+    color: #fff; /* Cambia el color del texto a blanco */
+    background-color: #555; /* Cambia el color de fondo a oscuro */
+    border: none; /* Elimina el borde */
+}
+
+.login-container button {
+    width: 80%;
+    padding: 0.5em;
+    font-size: 1em;
+    color: #070707; /* Cambia el color del texto a oscuro */
+    background-color: #fff; /* Cambia el color de fondo a blanco */
+    border: none;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #ddd; /* Cambia el color de fondo al pasar el mouse */
+}
